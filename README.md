@@ -3,7 +3,7 @@
  
 Hey guys, so I decided to make a script that automates the process of adding each of your git commits as issues in your Jira with descriptions, contributors, and start/due date.
 
-I want to eventually get it where it can detect who in the project contributed to what issue and fill in that field. If someone would like to fork that feature to this repository, that would be really cool.
+I want to eventually get it where it can detect who in the project contributed to what issue and fill in that field in Jira (still requires manual work). If someone would like to fork that feature to this repository, that would be really cool.
 
 Nonetheless, here are the instructions.
 
