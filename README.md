@@ -182,7 +182,7 @@ Please make sure your tasks have Start Date and Due Date fields.
    - Drag and drop **Start Date** and **Due Date** from the available fields list to the **Context fields** section.
 
 5. **Save Changes**:
-   - Af
+   - After making the changes, click **Save**. The Start Date and Due Date fields will now be available for tasks in your project.
 
 ## Message to UCF Senior Design and POOSD Teams
 Hey, I know how tedious tracking commits and creating Jira issues can be, especially when you're juggling multiple tasks for senior design or POOSD. I feel your pain, and I hope this tool helps automate this process and makes your life a little easier. 🙂
