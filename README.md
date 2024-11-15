@@ -1,7 +1,7 @@
 
 # Git Commits to Jira  
  
-Hey guys, so I decided to make a script that automates the process of adding each of your git commits as issues in your Jira with descriptions, contributors, and start/due date.
+Hey guys, so I decided to make a script that automates the process of adding each of your git commits as issues in your Jira with descriptions, and start/due date.
 
 I want to eventually get it where it can detect who in the project contributed to what issue and fill in that field in Jira (still requires manual work). If someone would like to fork that feature to this repository, that would be really cool.
 
@@ -162,6 +162,27 @@ For example, if your project key is `TASKS`, set it in the `.env` file like this
 ```plaintext
 JIRA_KEY="TASKS"
 ```
+
+## Additional Instructions
+Please make sure your tasks have Start Date and Due Date fields. 
+
+### How to Add Start Date and Due Date Fields in Jira Tasks
+
+1. **Navigate to Project Settings**:
+   - Open your Jira project and click on **Project settings** in the left-hand menu.
+
+2. **Go to Issue Types**:
+   - In the **Project settings**, select **Issue types**.
+
+3. **Edit the Task Issue Type**:
+   - Click on **Task** to edit its configuration.
+
+4. **Drag and Drop Fields**:
+   - On the right side, find the **Context fields** section.
+   - Drag and drop **Start Date** and **Due Date** from the available fields list to the **Context fields** section.
+
+5. **Save Changes**:
+   - Af
 
 ## Message to UCF Senior Design and POOSD Teams
 Hey, I know how tedious tracking commits and creating Jira issues can be, especially when you're juggling multiple tasks for senior design or POOSD. I feel your pain, and I hope this tool helps automate this process and makes your life a little easier. 🙂
