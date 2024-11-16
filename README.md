@@ -88,7 +88,7 @@ JIRA_SERVER="https://your-project.atlassian.net/"
 ```
 
 ## JIRA_EMAIL
-This environment variable should be set to the email address associated with the Jira account that has permissions to create issues. Ensure that this account has the appropriate administrative rights or project permissions to create issues in the Jira project.
+This environment variable should be set to the email address associated with the Jira account. Ensure that this account has the appropriate administrative rights or project permissions to create issues in the Jira project.
 
 ### Permissions Required
 The Jira account associated with this email must have:
